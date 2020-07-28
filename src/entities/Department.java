@@ -13,7 +13,7 @@ public class Department {
 		this.name = name;
 	}
 	
-	//Accessor methods
+	//Accessor Methods
 	public String getName() {
 		return name;
 	}
