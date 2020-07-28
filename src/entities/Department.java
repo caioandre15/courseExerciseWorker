@@ -1,19 +1,19 @@
 package entities;
 
 public class Department {
-	
-	//Attributes
+
+	// Attributes
 	private String name;
-	
-	//Builders
+
+	// Builders
 	public Department() {
 	}
-	
+
 	public Department(String name) {
 		this.name = name;
 	}
-	
-	//Accessor Methods
+
+	// Accessor Methods
 	public String getName() {
 		return name;
 	}
@@ -21,5 +21,5 @@ public class Department {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 }
