@@ -2,15 +2,18 @@ package entities;
 
 public class Department {
 	
+	//Attributes
 	private String name;
 	
+	//Builders
 	public Department() {
 	}
 	
 	public Department(String name) {
 		this.name = name;
 	}
-
+	
+	//Accessor methods
 	public String getName() {
 		return name;
 	}
